@@ -20,35 +20,83 @@
 
 <body>
     <header>
-        <div class="row no-gutters">
+        <div class="row no-gutters header-part">
             <div class="col-md-6">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
                         <h1 class="name">Behnaz Khoshnood</h1>
                         <h2 class="title">Junior Full Stack Developer</h2>
+                        <h5 class="uppercase social">Social</h5>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="tel:+46-728-750-854">
+                                    <i class="fas fa-phone" aria-hidden="true"></i>
+                                    <span class="sr-only">Phone number</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.linkedin.com/in/behnaz-khoshnood-701146128/"">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://github.com/behnazkhoshnood">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                    <span class="sr-only">GitHub</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://join.skype.com/invite/dg3h7ePEiS7Z">
+                                    <i class="fa fa-skype" aria-hidden="true"></i>
+                                    <span class="sr-only">Skype</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.facebook.com/behnaz.khoshnood">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://chatwith.io/s/behnaz-khoshnood">
+                                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                    <span class="sr-only">Whatsapp</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <h5 class="cv pb-2">
+                            Need a printable version of my CV? Download it here.
+                            <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                <span class="sr-only">Download link.</span>
+                            </a>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <img class="col-md-6 offset-lg-2 d-none d-md-block logo" src="assets/css/image/photo.jpg"></img>
+            <div class="photo-div">
+                <img class="photo logo" src="assets/css/image/photo.jpg"></img>
+            </div>
         </div>
         <div class="row no-gutters">
             <div class="col-6 col-md-3 menu-color-experience menuitem">
-                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Experience</span></a>
+                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-briefcase d-none d-md-block" aria-hidden="true"></i><span>Experience</span></a>
             </div>
             <div class="col-6 col-md-3 menu-color-education menuitem">
-                <a href="education.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Education</span></a>
+                <a href="education.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap d-none d-md-block" aria-hidden="true"></i><span>Education</span></a>
             </div>
             <div class="col-6 col-md-3 menu-color-interest menuitem">
-                <a href="interest.html" class="hvr-sweep-to-bottom"><i class="fas fa-heart" aria-hidden="true"></i><span>Interest</span></a>
+                <a href="interest.html" class="hvr-sweep-to-bottom"><i class="fas fa-heart d-none d-md-block" aria-hidden="true"></i><span>Interest</span></a>
             </div>
             <div class="col-6 col-md-3 menu-color-contact menuitem">
-                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o d-none d-md-block" aria-hidden="true"></i><span>Contact</span></a>
             </div>
         </div>
     </header>
     <section class="container-fluid">
         <div class="row row-table">
-            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-conferences section-column">
+            <div class="col-xs-12 col-sm-12 col-md-3 bg-color-side section-column">
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="section-heading uppercase">Conferences and Meetups attended</h3>
@@ -56,7 +104,7 @@
                 </div>
                 <div id="map"></div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 bg-color-groups section-column">
+            <div class="col-xs-12 col-sm-12 col-md-9 bg-color-main section-column">
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="section-heading uppercase"> My groups and societies</h3>
@@ -128,31 +176,10 @@
             </div>
         </div>
     </section>
-    <footer class="container-fluid ">
-        <div id="footer-details " class="row ">
-            <div class="col-sm-4 ">
-                <h5 class="uppercase general-sub ">About</h5>
-                <p class="inline-block ">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
-                </p>
-            </div>
-            <div class="col-sm-4 ">
-                <h5 class="uppercase general-sub ">Download My CV</h5>
-                <p class="inline-block ">
-                    Need a printable version of my CV? Download it here.
-                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf "><i class="fa fa-download " aria-hidden="true "></i></a>
-                </p>
-            </div>
-            <div class="col-sm-4 ">
-                <h5 class="uppercase general-sub ">MySocial</h5>
-                <ul class="list-inline social-links ">
-                    <li><a target="_blank " href="# "><i class="fa fa-facebook "></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-twitter "></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-linkedin "></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-pinterest "></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-instagram "></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-youtube "></i></a></li>
-                </ul>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col">
+                    <p class="small mt-3 text-center"> Copyright &copy; All rights reserved</p>
             </div>
         </div>
     </footer>
