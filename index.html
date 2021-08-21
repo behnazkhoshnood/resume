@@ -19,12 +19,19 @@
 <body>
     <header>
         <div class="row no-gutters header-part">
-            <div class="col-md-6">
+            <div class="col col-sm">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
-                        <h1 class="name">Behnaz Khoshnood</h1>
-                        <h2 class="title">Junior Full Stack Developer</h2>
-                        <h5 class="uppercase social">Social</h5>
+                        <h2 class="name">Behnaz Khoshnood</h2>
+                        <h4 class="title">Junior Full Stack Developer</h4>
+                        <p class="cv">
+                            Need a printable version of my CV? Download it here.
+                            <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                <span class="sr-only">Download link.</span>
+                            </a>
+                        </p>
+                        <h6 class="uppercase social">Social</h6>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
                                 <a target="_blank" href="tel:+46-728-750-854">
@@ -63,38 +70,31 @@
                                 </a>
                             </li>
                         </ul>
-                        <h5 class="cv pb-2">
-                            Need a printable version of my CV? Download it here.
-                            <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
-                                <i class="fa fa-download" aria-hidden="true"></i>
-                                <span class="sr-only">Download link.</span>
-                            </a>
-                        </h5>
                     </div>
                 </div>
             </div>
             <div class="photo-div">
-                <img class="photo d-none d-md-block" src="assets/css/image/photo.jpg"></img>
+                <img class="photo d-none d-sm-block col-sm-6" src="assets/css/image/photo.jpg"></img>
             </div>
         </div>
         <div class="row no-gutters">
             <div class="col-6 col-md-3 menu-color-experience menuitem">
-                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-briefcase d-none d-md-block" aria-hidden="true"></i><span>Experience</span></a>
+                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Experience</span></a>
             </div>
             <div class="col-6 col-md-3 menu-color-education menuitem">
-                <a href="education.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap d-none d-md-block" aria-hidden="true"></i><span>Education</span></a>
+                <a href="education.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Education</span></a>
             </div>
             <div class="col-6 col-md-3 menu-color-interests menuitem">
-                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fas fa-heart d-none d-md-block" aria-hidden="true"></i><span>interests</span></a>
+                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fas fa-heart" aria-hidden="true"></i><span>interests</span></a>
             </div>
             <div class="col-6 col-md-3 menu-color-contact menuitem">
-                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o d-none d-md-block" aria-hidden="true"></i><span>Contact</span></a>
+                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
             </div>
         </div>
     </header>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 col-md-3 bg-color-side section-column-side order-last order-sm-first">
+        <div class="row main-part">
+            <div class="col-sm-6 col-md-3 bg-color-side section-column-side order-last order-sm-first pb-2">
                 <div class="row">
                     <div class="col-12">
                         <h3 class="history-heading uppercase text-center text-md-left">
@@ -104,30 +104,30 @@
                 </div>
                 <div class="history-items">
                     <div class="timeline-item" data-dates="03/2020 - 07/2021">
-                        <h4>code institute</h4>
+                        <p class="company-name">code institute</p>
                         <p>Student</p>
                     </div>
                     <div class="timeline-item" data-dates="01/2020 - Present">
-                        <h4>SANIK Fastigheter AB</h4>
+                        <p class="company-name">SANIK Fastigheter AB</p>
                         <p>Vice President</p>
                     </div>
                     <div class="timeline-item" data-dates="2016 - 2019">
-                        <h4>SFI and SAS ( to learning swedish language )</h4>
+                        <p class="company-name">SFI and SAS ( to learning swedish language )</p>
                         <p>Student</p>
                     </div>
                     <div class="timeline-item" data-dates="03/2012 - 03/2016">
-                        <h4>Shiraz university of medical science and health
-                            services</h4>
+                        <p class="company-name">Shiraz university of medical science and health
+                            services</p>
                         <p>Intern</p>
                     </div>
                     <div class="timeline-item" data-dates="09/2007 - 03/2012">
-                        <h4>Shiraz university of medical science and health
-                            services</h4>
+                        <p class="company-name">Shiraz university of medical science and health
+                            services</p>
                         <p>Student</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-9 bg-color-main section-column-main">
+            <div class="col-sm-6 col-md-9 bg-color-main section-column-main pb-2">
                 <div class="row">
                     <div class="col">
                         <h3 class="section-heading uppercase text-center text-md-left">Main Projects</h3>
@@ -140,7 +140,7 @@
                                 <i class="projects-icon fa fa-code" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/tadig-restaurant" target="_blank">Tadig Restaurant</a></h4>
+                                <h6 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/tadig-restaurant" target="_blank">Tadig Restaurant</a></h6>
                                 <small class="times">03/2020 - 06/2020</small>
                                <p>A website for a restaurant based on HTML and CSS.</p>
                             </div>
@@ -152,7 +152,7 @@
                                 <i class="projects-icon fab fa-js-square" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/Nonogram-puzzle" target="_blank">Nonogram Puzzle</a></h4>
+                                <h6 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/Nonogram-puzzle" target="_blank">Nonogram Puzzle</a></h6>
                                 <small class="times">07/2020 - 09/2020</small>
                                 <p>
                                     A puzzle game based on Javascript and jQuery.
@@ -166,7 +166,7 @@
                                 <i class="projects-icon fas fa-database" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/good-cook-ms3" target="_blank">Good Cook</a></h4>
+                                <h6 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/good-cook-ms3" target="_blank">Good Cook</a></h6>
                                 <small class="times">10/2020 - 01/2021</small>
                                 <p>
                                     A Data Centric Development project based on mongo DB, Flask framework and python language.
@@ -180,7 +180,7 @@
                                 <i class="projects-icon fab fa-python" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/tadig_restaurant_v2" target="_blank">Tadig Restaurant V2</a></h4>
+                                <h6 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/tadig_restaurant_v2" target="_blank">Tadig Restaurant V2</a></h6>
                                 <small class="times">01/2021 - 06/2021</small>
                                 <p>
                                     A full stack project with django framework.
@@ -201,7 +201,7 @@
                                 <i class="projects-icon fab fa-js-square" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/Drink-About" target="_blank">Drink About</a></h4>
+                                <h6 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/Drink-About" target="_blank">Drink About</a></h6>
                                 <p class="d-none d-md-block">This is a simple app working with JS and suggesting a type of drink based on the age of a person.</p>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
                                 <i class="projects-icon fa fa-code" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/ucd-resume" target="_blank">Resume</a></h4>
+                                <h6 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/ucd-resume" target="_blank">Resume</a></h6>
                                 <p class="d-none d-md-block">This is sample for making an eye catching resume.</p>
                             </div>
                         </div>
@@ -223,7 +223,7 @@
                                 <i class="projects-icon  fab fa-js-square" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/fizzBuzz" target="_blank">FizzBuzz</a></h4>
+                                <h6 class="projects-heading uppercase"> <a href="https://github.com/behnazkhoshnood/fizzBuzz" target="_blank">FizzBuzz</a></h6>
                                 <p class="d-none d-md-block">This is another simple app giving the response of "Fizz", "Buzz" or "FizzBuzz: based on the given number.</p>
                             </div>
                         </div>
@@ -234,7 +234,7 @@
                                 <i class="projects-icon fas fa-sms" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/flask-chat" target="_blank">Flask Chat</a></h4>
+                                <h6 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/flask-chat" target="_blank">Flask Chat</a></h6>
                                 <p class="d-none d-md-block">This is a chat application writen in Flask. The purpose of this is project is to take data from URL and store the information in a list.</p>
                             </div>
                         </div>
@@ -245,7 +245,7 @@
                                 <i class="projects-icon fas fa-database" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/flask_task_manager_project" target="_blank">Task Manager</a></h4>
+                                <h6 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/flask_task_manager_project" target="_blank">Task Manager</a></h6>
                                 <p class="d-none d-md-block">
                                     This app works as a simple to do list.
                                 </p>
@@ -258,7 +258,7 @@
                                 <i class="projects-icon fab fa-python" aria-hidden="true"></i>
                             </div>
                             <div class="col">
-                                <h4 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/boutique_ado_v1" target="_blank">Boutique ado</a></h4>
+                                <h6 class="projects-heading uppercase"><a href="https://github.com/behnazkhoshnood/boutique_ado_v1" target="_blank">Boutique ado</a></h6>
                                 <p class="d-none d-md-block">
                                     This app is a shoping site similar to Amazon, to help user easily search through or purchase the products provided in the store.
                                 </p>
