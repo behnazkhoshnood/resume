@@ -22,7 +22,7 @@
     background-color: #3498db;
 }
 
-.menu-color-interest {
+.menu-color-interests {
     background-color: #e74c3c;
 }
 
@@ -98,12 +98,15 @@ header {
     display: flex;
 }
 
-.logo {
+.photo {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 280px;
-    border-radius: 50%;
+    border-radius: 70%;
+    border-style: outset;
+    border-width: thick;
+    border-color: #8f8f8f;
     padding: 10px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
