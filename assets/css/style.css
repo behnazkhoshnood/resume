@@ -76,6 +76,12 @@ h4 {
     margin-bottom: 40px;
 }
 
+.section-column-side,
+.section-column-main {
+    padding: 0 10px 10px 15px;
+    float: none;
+    display: table-cell;
+}
 
 /*--------------------------------------------Heading*/
 
@@ -85,6 +91,11 @@ header {
 
 .heading {
     margin-left: 50px;
+}
+
+.photo-div{
+    margin: auto;
+    display: flex;
 }
 
 .logo {
@@ -98,14 +109,6 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     image-rendering: pixelated;
-}
-
-.photo-div{
-    margin: auto;
-    display: flex;
-}
-
-.photo{
     margin: auto;
 }
 
@@ -216,7 +219,6 @@ header {
     letter-spacing: 2px;
 }
 
-
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
@@ -246,6 +248,7 @@ footer {
 
 .projects-heading {
     margin-bottom: 15px;
+    padding-top: 3px;
 }
 
 /*--------------------------------------------skills*/
@@ -327,7 +330,7 @@ footer {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
+    color: #676767;
     border-left: 1px solid;
 }
 
@@ -358,17 +361,18 @@ footer {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #fafafa;
+    background: #676767;
+    padding-bottom: 5px;
 }
 
 .history-heading {
-    color: #fafafa;
+    color: #555555;
     margin-bottom: 50px;
 }
 
-.history-items {
+/* .history-items {
     margin-bottom: 30px;
-}
+} */
 
 /*--------------------------------------------Contact*/
 
@@ -422,6 +426,7 @@ div#map {
 
 /*--------------------------------------------Media Queries*/
 
+/* in small screens and smaller */
 @media(max-width:650px){
     .heading {
         margin-left: 10px;
@@ -451,19 +456,47 @@ div#map {
     }
 }
 
-@media(max-width:768px){
-    .logo{
-        display: none;
+/* in medium and smaller screens */
+@media(max-width:769px){
+    .history-heading,
+    .section-heading {
+        font-weight: 400;
+        font-size: 15px;
     }
+
+    .timeline-item h4,
+    .projects-heading{
+        font-size: 13px;
+    }
+
 }
 
-@media(min-width: 992px) {
-    .section-column {
-        padding: 0 30px 30px;
+/* in medium and bigger screens */
+@media(min-width: 599px){
+    .section-column-side {
+        padding: 0 10px 70px 10px;
         float: none;
         display: table-cell;
     }
 
+    .section-column-main {
+        padding: 0 30px 70px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .projects-heading{
+        font-size: 17px;
+
+    }
+
+    .timeline-item h4{
+        font-size: 17px;
+    }
+}
+
+/* in large and bigger screens*/
+@media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
@@ -472,6 +505,7 @@ div#map {
     }
 }
 
+/* in screens with 949px hight and higher */
 @media(min-height:949px){
     footer{
         position:fixed;
