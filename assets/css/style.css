@@ -76,11 +76,11 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .section-column-main{
-    padding-left: 30px;
+    padding: 10px;
 }
 
 /*--------------------------------------------Heading*/
@@ -409,10 +409,6 @@ div#map {
         font-size: 15px;
     }
 
-    .projects-heading{
-        
-    }
-
     .company-name{
         font-weight: 400;
     }
@@ -422,6 +418,10 @@ div#map {
 @media(min-width: 599px){
     .photo{
         display: table-cell;
+    }
+
+    .section-column-main{
+        padding-left: 30px;
     }
 }
 
@@ -440,6 +440,11 @@ div#map {
         margin: 0 auto;
         max-width: 50%;
     }
+
+    /* .skills-column {
+        padding-left: 70px;
+        padding-right: 70px;
+    } */
 }
 
 /* in screens with 949px hight and higher */
