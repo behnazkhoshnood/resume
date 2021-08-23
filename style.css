@@ -338,14 +338,11 @@ footer {
 }
 
 /*--------------------------------------------personality*/
-.traits{
+.personality{
     font-weight: 400;
 }
 
 /*--------------------------------------------Contact*/
-#form{
-    margin-bottom: 65px;
-}
 
 .contact-heading {
     font-family: "Exo", sans-serif;
