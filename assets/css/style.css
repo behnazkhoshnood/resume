@@ -403,9 +403,14 @@ div#map {
     }
 
     .history-heading,
-    .section-heading {
+    .section-heading,
+    .contact-heading {
         font-weight: 500;
         font-size: 15px;
+    }
+
+    .contact-note{
+        font-size: 13px;
     }
 
     .company-name{

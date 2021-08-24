@@ -1,10 +1,12 @@
-# **Behnaz Khoshnood CV**
+# <center>**Behnaz Khoshnood Resume**
 
 [View the live project here.](https://behnazkhoshnood.github.io/new-resume/)
-This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made-up Persian restaurant.
-It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers.
 
-![Tadig Restaurant](media/tadig-live-view.png)
+This website is resume for Behnaz Khoshnood. It contains all the information that is relevant for hiring managers or potensial customers.
+
+![Tadig Restaurant](assets/css/image/cv-desktop.png)
+
+---
 ## **Contents** ##
 * UX
     * [Project Summary](#project-summary)
@@ -18,158 +20,81 @@ It is designed to be responsive and accessible on a range of devices, making it 
 * [Fixed Issues](#fixed-issues)
 * [Deployment](#deployment)
 * [Credit](#credits)
-
+---
 ## **UX (User Experience)** ##
 
 ### **Project Summary** ###
 
-The main purpose of this project is to build a full-stack site based around business logic used to control a centrally-owned dataset.
-By authenticating on the site and paying for some of its services, users can advance their own goals. Before authenticating, the site makes it clear how those goals would be furthered by the site.
-The site owner is able to make money by providing this set of services to the users. There is no way for a regular user to bypass the site's mechanisms and derive all of the value available to paid users without paying.
+The main purpose of this project is to summarise all my academic, professional and personal achievements in order to entice or interest a hiring manager when applying for a new job opportunity.
 
 ### **User Stories**
 
-#### **As a Site Users**
+#### **As a hiring manager**
 
 - **Registeration and User Account**
-  - I want to be able to easily register for an account, so that I can have a personal account and be able to view my profile.
-  - I want to be able to easily login and logout, so that I can have access my personal account information.
-  - I want to be able to easily recover my password in case I forget it, so that I can recover access to my account.
-  - I want to be able to receive an email confirmation after registering, so that I can verify that my account registeration was successful.
-  - I want to be able to have a personalized user profile, so that I can view my personal order history and order confirmations and save my payment information.
-  - I want to be able to see each product review, so that I can easily choose the meal(product), based on the comments and reviews.
-  - I want to be able to add a review, so that I can share my thoughts with other customers and the owners of the restaurant.
+  - I want to be able to navigate through the site easily.
+  - I want to be able to see all the relevant information about the hiring condidate including a brief sumarry, work and educaton history, skills, projects and personality.
+  - I want to be able to see the codidate contact and social information.
+  - I want to have access to a printable version of the CV.
+  - I want to be able to contact the candidate through email or phone number.
 
-#### **As a Shopper**
-
-- **Viewing and Navigating**
-  - I want to be able to view a list of products, so that I can select some to purchase.
-  - I want to be able to view individual product details, so that I can identify the price, description, product rating and product image.
-  - I want to be able to easily view the total of my purchases at any time, so that I can avoid spending too much.
-
-- **Sorting and Searching**
-  - I want to be able to sort the list of availabe products, so that I can easily identify the best rated, best priced and categorically sorted products.
-  - I want to be able to sort a specific category of product, so that I can find the best priced product in a specific category, or sort the products in each category.
-  - I want to be able to sort multiple categories of products simultaneously, so that I can find the best priced products.
-  - I want to be able to search for a product by name, category or description, so that I can find a specific product I'd like to purchase.
-  - I want to be able to easily see what I've searched for and the number of results, so that I can quickly decide wheather the product I want is availabe.
-
-- **Purchasing and Checkout**
-  - I want to be able to easily select the quantity of a product when purchasing it, so that I can ensure I don't accidentally select the wrong product or quantity.
-  - I want to be able to view items in my bag to be purchased, so that I can identify the total cost of my purchase and all items I will receive.
-  - I want to be able to adjust the quantity of individual items in my bag, so that I can easily make changes to my purchase before checkout.
-  - I want to be able to easily enter my paiment information, so that I can check out quickly and with no hassles.
-  - I want to be able to feel my personal and payment information is safe and secure, so that I can confindently provide the needed information to make a purchase.
-  - I want to be able to view an order confirmation after checkout, so that I can verify that I haven't made any mistakes.
-  - I want to be able to receive an email confirmation after checking out, so that I can keep the confirmation of what I've purchased for my records.
-
-#### **As a Store Owner**
-
-- **Admin and Store Managment**
-  - I want to be able to add a product, so that I can add new items to my store.
-  - I want to be able to edit or update a product, so that I can change product pricees, descriptins, image or other product criteria.
-  - I want to be able to delete a product, so that I can remove items that are no longer available.
+#### **As a resume Owner**
+  - I want to be able to showcase some of my coding abilities via this resume.
 
 ### **Design choices**
 
-  The goal in design was to create a website that is overall user friendly, has a modern feel with emphasis on providing information about the restaurant dishes/drinks in a readable and eye-catching way. Therefore, following design choices were made:
+  The goal in design was to create a website that is overall user friendly, has a modern feel with emphasis on providing information about the the resume Owner.
+
 - **Framework**
   * Front-end framework, [Bootstrap](https://Bootstrap.com/),  based on bootstrap Design was chosen for this project for its modern interface and ease of use.
 
   * [JQuery](https://jquery.com/) was used for initializing some bootstrap elements.
 
 - **Typography**
-  - I used [Google Fonts](https://fonts.googleapis.com/css?family=Lato&display=swap") for the font style of my project:
-    - The font I have used for this project is called **Lato** and sans-serif as a backup font.
+  - I used [Google Fonts](https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700) for the font style of my project:
+    - The font I have used for the body of this project is called **Roboto** and sans-serif as a backup font.
+    - The font I have used for headings of this project is called **Exo** and sans-serif as a backup font.
 
 - **Icons**
   - I used [Favicon](https://flask.palletsprojects.com/en/1.1.x/patterns/favicon/) to make a unic brand for my website.
-  - I used [FontAwesome]() as the main icon library across the project (e.g. for forms and buttons).
+  - I used [FontAwesome]() as the main icon library across the project.
 
 - **Colour Scheme**
 
-  The idea of using different shades of the same colour is implemented accross the website. The primary colour used for main buttons and headings is deep purple as it seems to create a nice contrast with white backgrounds. The secondary colour used for icons, dividers and some other buttons is blue and pink.
+  To make the navbar in easily detactable, I used 4 eye catching colors. 
 
   - **Main colour palette**
 
-    - Main colors that have been used are black and white and some shades of gray due to their high contrast which complement the colorful images.
-    - For toast messeges headers and some labels I used bootstrap scheme:
-        - Succsess: #28a745; which is a shade of green color.
-        - Danger: #dc3545 ; which is a shade of red color.
-        - Primary: #007bff ; which is a shade of blue color.
-        - secondary: #6c757d ; which is a shade of gray color.
-        - warning: ##ffc107 ; which is a shade of yellow color.
-        - info: #17a2b8 ; which is a shade of blue color.
-        - light: #f8f9fa ; which is a shade of light gray color.
-        - dark: #343a40 ; which is a shade of dark gray color.
+    - Main colors that have been used are white and some shades of gray due to their high contrast which complement the colorful navbar.
+    - Navbar colors:
+      - for **EDUCATION**, a shade of orange color is used : #e67e22
+      - for **EXPERIENCE**, a shade of blue color is used : #3498db
+      - for **PERSONALITY**, a shade of red color is used : #e74c3c
+      - for **CONTACT**, a shade of purple color is used : #9b59b6
 ---
 ## **Wireframes**
 [Balsamiq Wireframes](https://balsamiq.com/wireframes/) was used to create all wireframes for the project.
 
- #### <center>Home Page<center>
+ ### **Desktop Views** ###
 
-Desktop view | Mobile view
-- | -
-![Home page-desktop](media/home-page-desktop.png) | ![Home-page-mobile](media/home-page-mobile.png)
----
 
- #### <center>Product details page<center>
+Education | Experience
+- | -
+![education-desktop](assets/css/image/desktop-education.png) | ![experience-desktop](assets/css/image/desktop-experience.png)
 
-Desktop view | Mobile view
+Personality | Contact
 - | -
-![Product details page-desktop](media/product-details-page-desktop.png) | ![Admin](media/product-details-page.png)
----
+![education-desktop](assets/css/image/desktop-personality.png) | ![experience-desktop](assets/css/image/desktop-contact.png)
 
- #### <center>Products page<center>
- Desktop view | Mobile view
-- | -
-![products-page-not-admin-desktop](media/product-page-not-admin-desktop.png) | ![products-page-not-admin-mobile](media/products-page-mobile.png) 
----
- #### <center>Shopping bag page<center>
- Desktop view | Mobile view
-- | -
-![shopping-bag-page-desktop.png](media/shopping-bag-page-desktop.png) | ![shopping-bag-page](media/shopping-bag-page.png)
----
+ ### **Mobile Views** ###
 
- #### <center>Checkout page<center>
-Desktop view | Mobile view
+Education | Experience
 - | -
-![checkout-page-desktop](media/checkout-page-desktop.png) | ![checkout-page-mobile](media/checkout-page-mobile.png)
----
+![education-mobile](assets/css/image/mobile-education.png) | ![experience-mobile](assets/css/image/mobile-experience.png)
 
- #### <center>Checkout success page<center>
- Desktop view | Mobile view
+Personality | Contact
 - | -
-![checkout-success-page-desktop](media/checkout-success-page-desktop.png) | ![checkout-page-mobile](media/checkout-page-mobile.png)
----
-
- #### <center>Profile page<center>
- Desktop view | Mobile view
-- | -
-![profile-page-desktop](media/profile-page-desktop.png) | ![profile-page-mobile](media/profile-page-mobile.png)
-
- #### <center>Log In<center>
- Desktop view | Mobile view
-- | -
-![sign-in-page-desktop](media/sign-in-page-desktop.png) | ![sign-in-page-mobile](media/sign-in-page-mobile.png)
----
-
- #### <center>Register<center>
-Desktop view | Mobile view
-- | -
-![register-page-desktop](media/register-page-desktop.png) | ![register-page-mobile](media/register-page-mobile.png)
----
-
- #### <center>Log OUt <center>
-Desktop view | Mobile view
-- | -
-![log-out-page-desktop](media/log-out-page-desktop.png) | ![log-out-mobile](media/log-out-mobile.png)
----
-
- #### <center>Add product oage ( Only Admin)<center>
-Desktop view | Mobile view
-- | -
-![add-poduct-page-only-admin](media/add-poduct-page-only-admin-desktop.png) | ![add-product-page-admin-mobile](media/add-product-page-admin-mobile.png)
+![education-mobile](assets/css/image/mobile-personality.png) | ![experience-mobile](assets/css/image/mobile-contact.png)
 ---
 
 ## **Features**
