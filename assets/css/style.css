@@ -38,6 +38,25 @@ body {
 
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
+/* scroll bar width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* scroll bar Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* scroll bar Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* scroll bar Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
 h1,
 h2,
@@ -301,6 +320,7 @@ footer {
 .card-text{
     white-space: nowrap;
     color: #000;
+    font-size: 13px;
 }
 
 .card-body{

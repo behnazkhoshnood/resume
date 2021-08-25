@@ -278,15 +278,24 @@ I chose [Bootstrap](https://Bootstrap.com/) framework for this project for its m
 ## **Credits**
 
 - All the images for the skills are provided form the sorces below:
+
 [HTML icon image](https://icons-for-free.com/iconfiles/png/512/html+html5+icon-1320186681398289636.png)
+
 [CSS icon image](http://cdn.onlinewebfonts.com/svg/img_565439.png)
+
 [JS icon image](https://img.icons8.com/ios-filled/452/javascript-logo.png)
+
 [Python icon image](https://img.icons8.com/metro/452/python.png)
-[Github](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT4NPUshn7uRYgSRvTfUYqP5tUcG9r1uRtgATZqPijoo7T1N5CIJ-yEoICT9nNabcmF2I&usqp=CAU)
-[MongoDB](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_sYQlmT6Kr_g2kqLEmBBykurCf_EHRD5JjeXAiLpkUIIT_CCP_7VKqbj2toY7l8qOHA&usqp=CAU)
-[Flask](https://banner2.cleanpng.com/20180508/qyw/kisspng-flask-python-web-framework-web-application-tutoria-5af1dbb70b6430.1030595115257998630467.jpg)
-[Heroku](https://banner2.cleanpng.com/20180531/lbf/kisspng-heroku-computer-icons-computer-servers-catalog-ser-24-5b103ecbd98262.9829309615277913078909.jpg)
-[Django](https://pbs.twimg.com/profile_images/752207108750340096/CicamXxN_400x400.jpg)
+
+[Github icon image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT4NPUshn7uRYgSRvTfUYqP5tUcG9r1uRtgATZqPijoo7T1N5CIJ-yEoICT9nNabcmF2I&usqp=CAU)
+
+[MongoDB icon image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_sYQlmT6Kr_g2kqLEmBBykurCf_EHRD5JjeXAiLpkUIIT_CCP_7VKqbj2toY7l8qOHA&usqp=CAU)
+
+[Flask icon image](https://banner2.cleanpng.com/20180508/qyw/kisspng-flask-python-web-framework-web-application-tutoria-5af1dbb70b6430.1030595115257998630467.jpg)
+
+[Heroku icon image](https://banner2.cleanpng.com/20180531/lbf/kisspng-heroku-computer-icons-computer-servers-catalog-ser-24-5b103ecbd98262.9829309615277913078909.jpg)
+
+[Django icon image](https://pbs.twimg.com/profile_images/752207108750340096/CicamXxN_400x400.jpg)
 
 - **Resources**
 
