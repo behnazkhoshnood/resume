@@ -1,6 +1,6 @@
 # <center>**Behnaz Khoshnood Resume**
 
-[View the live project here.](https://behnazkhoshnood.github.io/resume/)
+[View the live project here.](https://behnazkhoshnood.github.io/resume)
 
 This website is a resume for Behnaz Khoshnood. It contains all the information that is relevant for hiring managers or potential customers.
 
