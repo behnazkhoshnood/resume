@@ -4,7 +4,7 @@
 
 This website is a resume for Behnaz Khoshnood. It contains all the information that is relevant for hiring managers or potential customers.
 
-![Tadig Restaurant](assets/css/image/cv-desktop.png)
+![Behnaz Resume](assets/css/image/cv-desktop.png)
 
 ---
 ## **Contents** ##
